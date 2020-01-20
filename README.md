@@ -1,0 +1,1 @@
+Information on this setup can be found at doublebracket.io/creating-an-instance-group-autoscaling-on-gcp
