@@ -58,7 +58,7 @@ resource "google_compute_instance_template" "default" {
   # Cloud-init user data can be specificed here
   # A linter may pick up the : as an illegal character. It should still work regardless.
   metadata = {
-    user-data = "${file(var.cloud_init_data)}"
+    startup-script = "startup-script:${file(var.cloud_init_data)}"
     ssh-keys="admin:${file(var.public_key_path)}"
   }
 

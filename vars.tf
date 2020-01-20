@@ -42,7 +42,7 @@ variable "public_key_path" {
 }
 variable "cloud_init_data" {
   type    = "string"
-  default = "./cloud_init_data.cfg"
+  default = "./cloud_init_data"
 }
 
 #### Network Settings ####
