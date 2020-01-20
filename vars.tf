@@ -7,7 +7,7 @@ variable "region" {
 
 variable "project" {
   type    = "string"
-  default = "codebase-dcba2"
+  default = ""
 }
 variable "zone"{
   type = "string"
